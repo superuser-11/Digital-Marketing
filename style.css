@@ -191,4 +191,50 @@
     left: 200px;
     bottom: 140px;
 }
+/* Blogging section  */
+.seo-card{
+    width: 32rem;
+}
+.dg-card{
+    width: 16rem;
+}
+.content-write::after{
+    content: "";
+    display: block;
+    width: 89px;
+    height: 2px;
+    background-color: #98AB3C;
+    position: absolute;
+    top: 29px;
+    left: 41px;
+}
+@media screen and (max-width:376px){
+    .content-write::after{
+        display: none;
+    }
+}
 
+@media screen and (max-width:374px){
+    .text-cntr{
+        text-align: center;
+    }
+    .seo-card{
+        width: 21rem;
+        margin-left: 5px;
+    }
+    .dg-card{
+        width: 18rem;
+        margin-left: 31px !important;
+    }
+    .content-write{
+        white-space: pre-line;
+    }
+}
+
+
+@media screen and (max-width:578px) {
+    .card-cntr{
+        margin-left: 133px;
+    }
+    
+}
