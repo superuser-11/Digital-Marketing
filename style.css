@@ -183,7 +183,7 @@
 /* help section  */
 .help-mrg{
     margin-top: 100px;
-    padding: 91px 0 50px 0;
+    padding: 44px 0 50px 0;
     background-color: #F6FBF9;
 }
 .v-pyramd{
@@ -231,10 +231,93 @@
     }
 }
 
-
 @media screen and (max-width:578px) {
     .card-cntr{
         margin-left: 133px;
     }
     
+}
+
+/* subscribe section  */
+.bg-subcribe{
+    background-image: url(assets/Group-1.png);
+    background-size: cover;
+    background-position: center;
+    height: 431px;
+}
+.building{
+    position: absolute;
+    top: 101px;
+    left: 930px;
+    height: 350px;
+}
+.window{
+    position: absolute;
+    left: 0;
+    bottom: 211px;
+}
+.sub-head{
+    margin-top: 75px;
+    white-space: pre-line;
+}
+.sub-head-1{
+    margin-left: 262px;
+}
+.email{
+    margin-left: 73px;
+    padding: 12px 51px 12px 29px;
+    border-radius: 37px;
+}
+.email:focus{
+    border-color: red;
+}
+
+.sub-btn{
+    margin-top: 3px;
+    margin-left: -201px;
+    padding: 8px 30px 8px 30px;
+    border-radius: 37px;
+}
+@media screen and (max-width:990px){
+    .email{
+        margin-left: 211px;
+    }
+    .sub-btn{
+        margin-left: 265px;
+    }
+    .building{
+        display: none;
+    }
+}
+@media screen and (max-width:766px){
+    .sub-head{
+        font-size: 23px;
+    }
+    .sub-head-1{
+        margin-left: 147px;
+    }
+    .email{
+        margin-left: 126px;
+    }
+    .sub-btn{
+        margin-left: 184px;
+    }
+}
+@media screen and (max-width:374px){
+    .sub-head{
+        font-size: 21px;
+    }
+    .sub-head-1{
+        margin-left: 55px;
+    }
+    .email{
+        margin-left: 33px;
+    }
+    .sub-btn{
+        margin-left: 92px;
+    }
+    .window{
+        display: none;
+    }
+
 }
