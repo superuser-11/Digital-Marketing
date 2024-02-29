@@ -319,5 +319,8 @@
     .window{
         display: none;
     }
+    .bg-subcribe{
+        height: 500px;
+    }
 
 }
