@@ -8,16 +8,7 @@
 .hero-mrg {
     margin-top: 100px;
 }
-@media screen and (max-width:400px){
-    .toggle-btn{
-        position: relative;
-        left: 39px;
-    }
-    .brand-ico{
-        right: 34px;
-        position: relative;
-    }
-}
+
 
 .best {
     margin-top: 100px;
@@ -44,15 +35,8 @@
     top: 121px;
     left: 205px;
 }
-
-@media screen and (max-width:1300px) {
-    .best::after {
-        display: none;
-    }
-
-    .best::before {
-        display: none;
-    }
+.preline{
+    white-space: pre-line;
 }
 
 .digital {
@@ -133,53 +117,6 @@
     top: 180px;
     right: 505px;
 }
-
-@media screen and (max-width:1198px) {
-    .bg-pic .fb {
-        display: none;
-    }
-
-    .bg-pic .insta {
-        display: none;
-    }
-    .bg-pic .netflix{
-        display: none;
-    }
-    .bg-pic .green{
-        display: none;
-    }
-    .bg-pic .blue-img{
-        display: none;
-    }
-    .v-pyramd{
-        display: none;
-    }
-
-}
-@media screen and (max-width:990px){
-    .bg-pic .tele{
-        right: 441px;
-    }
-    .bg-pic .vk{
-        left: 425px;
-    }
-}
-@media screen and (max-width:766px){
-    .bg-pic .tele{
-        right: 351px;
-    }
-    .bg-pic .vk{
-        left: 333px;
-    }
-}
-@media screen and (max-width:460px){
-    .bg-pic .tele{
-        display: none;
-    }
-    .bg-pic .vk{
-        display: none;
-    }
-}
 /* help section  */
 .help-mrg{
     margin-top: 100px;
@@ -208,36 +145,6 @@
     top: 29px;
     left: 41px;
 }
-@media screen and (max-width:376px){
-    .content-write::after{
-        display: none;
-    }
-}
-
-@media screen and (max-width:400px){
-    .text-cntr{
-        text-align: center;
-    }
-    .seo-card{
-        width: 21rem;
-        margin-left: 5px;
-    }
-    .dg-card{
-        width: 18rem;
-        margin-left: 31px !important;
-    }
-    .content-write{
-        white-space: pre-line;
-    }
-}
-
-@media screen and (max-width:578px) {
-    .card-cntr{
-        margin-left: 133px;
-    }
-    
-}
-
 /* subscribe section  */
 .bg-subcribe{
     background-image: url(assets/Group-1.png);
@@ -278,7 +185,45 @@
     padding: 8px 30px 8px 30px;
     border-radius: 37px;
 }
+@media screen and (max-width:1300px) {
+    .best::after {
+        display: none;
+    }
+
+    .best::before {
+        display: none;
+    }
+}
+@media screen and (max-width:1198px) {
+    .bg-pic .fb {
+        display: none;
+    }
+
+    .bg-pic .insta {
+        display: none;
+    }
+    .bg-pic .netflix{
+        display: none;
+    }
+    .bg-pic .green{
+        display: none;
+    }
+    .bg-pic .blue-img{
+        display: none;
+    }
+    .v-pyramd{
+        display: none;
+    }
+
+}
+
 @media screen and (max-width:990px){
+    .bg-pic .tele{
+        right: 441px;
+    }
+    .bg-pic .vk{
+        left: 425px;
+    }
     .email{
         margin-left: 211px;
     }
@@ -302,8 +247,39 @@
     .sub-btn{
         margin-left: 184px;
     }
+    .bg-pic .tele{
+        right: 351px;
+    }
+    .bg-pic .vk{
+        left: 333px;
+    }
+}
+@media screen and (max-width:578px) {
+    .card-cntr{
+        margin-left: 133px;
+    }
+    
+}
+@media screen and (max-width:460px){
+    .bg-pic .tele{
+        display: none;
+    }
+    .bg-pic .vk{
+        display: none;
+    }
 }
 @media screen and (max-width:400px){
+    .content-write::after{
+        display: none;
+    }
+    .toggle-btn{
+        position: relative;
+        left: 39px;
+    }
+    .brand-ico{
+        right: 34px;
+        position: relative;
+    }
     .sub-head{
         font-size: 21px;
     }
@@ -311,16 +287,36 @@
         margin-left: 55px;
     }
     .email{
-        margin-left: 33px;
+        margin-left: 15px;
     }
     .sub-btn{
-        margin-left: 92px;
+        margin-left: 88px;
     }
     .window{
         display: none;
     }
     .bg-subcribe{
         height: 500px;
+    }
+    .text-cntr{
+        text-align: center;
+    }
+    .seo-card{
+        width: 21rem;
+        margin-left: -3px;
+    }
+    .dg-card{
+        width: 18rem;
+        margin-left: 20px !important;
+    }
+    .content-write{
+        white-space: pre-line;
+    }
+    .preline{
+        white-space-collapse:preserve-spaces;
+    }
+    .help-mrg{
+        margin-top: 0;
     }
 
 }
