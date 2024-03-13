@@ -8,7 +8,7 @@
 .hero-mrg {
     margin-top: 100px;
 }
-@media screen and (max-width:374px){
+@media screen and (max-width:400px){
     .toggle-btn{
         position: relative;
         left: 39px;
@@ -214,7 +214,7 @@
     }
 }
 
-@media screen and (max-width:374px){
+@media screen and (max-width:400px){
     .text-cntr{
         text-align: center;
     }
@@ -273,7 +273,7 @@
 }
 
 .sub-btn{
-    margin-top: 3px;
+    
     margin-left: -201px;
     padding: 8px 30px 8px 30px;
     border-radius: 37px;
@@ -303,7 +303,7 @@
         margin-left: 184px;
     }
 }
-@media screen and (max-width:374px){
+@media screen and (max-width:400px){
     .sub-head{
         font-size: 21px;
     }
